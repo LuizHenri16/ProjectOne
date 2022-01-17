@@ -1,0 +1,338 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+    text-decoration: none;
+    list-style: none;
+
+    font-family: "raleway" ;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url("assets/882325.jpg") no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    
+}
+
+header {
+    background: #00000073; 
+}
+
+/*Logo e menuNavigation(Views)*/
+.logo{
+    color: #fff;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    width: 90%;
+    margin-left: 5rem
+    
+}
+
+.Views, .logo {
+    margin-top: 1.5rem;
+}
+
+.Views ul {
+    display: flex;
+}
+
+.Views ul li a {
+    margin-left: 1.5rem;
+
+    color: #fff;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+}
+
+.Views ul li a:hover, .logo:hover {
+    opacity: 0.9;
+    transform: scale(0.9);
+
+    cursor: pointer;
+}
+/*Logo e menuNavigation(Views)*/
+
+
+/*Conteudo principal*/
+
+.page1 .textArea h1 {
+    font-size: 9rem;
+    font-style: normal;
+    font-weight: 100;
+
+    color: #fff;
+
+}
+.page1 .textArea h1 span {
+    font-weight: 700;
+}
+
+.page1 .textArea p {
+    margin-top: 4rem;
+
+    font-size:1.5rem;
+    color: #fff;
+}
+
+
+.page1 .textArea, .inputEmail {
+    margin: 8rem 8rem;
+}
+
+.inputEmail p {
+    font-size: 1.3rem;color: #fff;
+}
+
+.send {
+    display: flex;
+
+}
+
+.inputEmail .Emailinput {
+    width: 20rem;
+    height: 3rem;
+    margin-top: 1rem;
+    border: 0   ;
+
+    background: rgba(89, 2, 9, 0.5);
+    border-radius: 0.5rem;
+   }
+
+.inputEmail .button, .button {
+    width: 12rem;
+    height: 2.9rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+
+    background:rgba(0, 86, 133, 0.623);
+    border-radius: 0.5rem;
+}
+
+.inputEmail .button a, .button a {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem
+
+}
+
+.inputEmail .button:hover, .button:hover {
+    cursor: pointer;
+    transform: scale(.9);
+
+
+}
+
+/*Conteudo principal*/
+
+/*Dividers*/
+
+.dividerVariation_1{
+    height: 8px;
+    background: linear-gradient(270deg, rgba(255, 0, 21, 0.5) 0%, rgba(89, 2, 9, 0) 43.65%, rgba(89, 2, 9, 0) 43.65%);
+}
+
+.dividerVariation_2 {
+
+    height: 8px;
+    background: linear-gradient(90deg, rgba(255, 0, 21, 0.5) 0%, rgba(89, 2, 9, 0) 43.65%, rgba(89, 2, 9, 0) 43.65%);
+}
+
+/*Dividers*/
+
+/*Pagina2*/
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 7.25rem;
+    margin-bottom: 7rem
+
+    }
+.bigCard {
+    display: flex;
+    flex-direction: column;
+   
+    width: 82rem;
+    height: 53rem;
+    
+    background: #ac666673;
+    border-radius: 0.5rem;
+}
+
+.bigCard h2 {
+    font-size: 3rem;
+    color: #fff;
+    margin: 4rem 32.4rem ;
+}
+
+.bigCard h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin: 0 15.4rem ;
+}
+
+.bigCard p {
+    font-size: 1.4rem;
+    color: #fff;
+    margin: 1rem 15.4rem;
+
+    line-height: 1.3;
+    
+}
+/*Pagina2*/
+
+/*Pagina 3 e 4 invertendo a imagem*/
+
+.page3 .box {
+    margin-top: 13.68rem;
+    margin-bottom: 13.68rem;
+
+    height: 642px;
+    width: 428px;
+
+    background: #ac666673;
+    border-radius: .5rem;
+}
+
+.page3 .box:hover {
+    opacity: 0.9;
+    transform: scale(0.995);
+
+    cursor: pointer;
+}
+
+.page3 .content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.page3 .textArea2 {
+    margin-top: 24.87rem;
+}
+
+.page3 .textArea2 h2 {
+    font-size: 2.5rem;
+    color: #fff;
+
+}
+
+.page3 .textArea2 p {
+    font-size: 1.4rem;
+    color: #fff;
+    margin-top:1rem;
+
+    line-height: 1.1;
+}
+
+.page3 .textArea2 .button {
+    margin-top: 2rem;
+    margin-left: 0;
+}
+
+/*Pagina 3 e 4 invertendo a imagem*/
+
+/*Page5*/
+
+.page5 .cards{
+    display: flex;
+    justify-content: space-around;
+
+    
+
+}
+
+
+.card1, .card2, .card3 {
+    width: 22rem;
+    height: 35rem;
+
+    background: rgb(27, 26, 26);
+
+    text-align: center;
+    border-radius:.5rem;
+
+    margin-top: 16rem;
+    margin-bottom: 13rem;
+    
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.cards h4 {
+    margin-top:4rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.cards p {
+    margin-top: 1rem;
+
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.cards .Price {
+
+margin-top: 7rem;
+font-size: 2.5rem;
+}
+
+/*Page5*/
+
+.footer {
+    height: 6%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+
+    background: #00000073;
+}
+
+.footer .icons {
+    display: flex;
+    
+}
+
+.footer p {
+    font-size: 1.3rem;
+    color: #fff;
+
+    margin-top:1rem;
+}
+
+.icon-facebook, .icon-twitter, .icon-instagram{
+    font-size: 2rem;
+    color: #fff;
+
+    overflow-y: hidden;
+}
+
+.icon-twitter, .icon-facebook {
+    margin-left: 1rem;
+}
+
+.icon-facebook:hover, .icon-twitter:hover, .icon-instagram:hover, .footer p:hover {
+    opacity: 0.9;
+    transform: scale(0.9);
+
+    cursor: pointer;
+}

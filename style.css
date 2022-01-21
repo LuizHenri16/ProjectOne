@@ -307,19 +307,24 @@ font-size: 2.5rem;
     background: #00000073;
 }
 
-.footer .icons {
-    display: flex;
-    
-}
 
 .footer p {
     font-size: 1.3rem;
     color: #fff;
-
+    
     margin-top:1rem;
 }
 
-.icon-facebook, .icon-twitter, .icon-instagram{
+.footer .icons {
+    display: flex;
+
+    font-size: 1rem;
+    margin-top: 1rem;
+    
+}
+.icon-facebook a , .icon-twitter a , .icon-instagram a{
+    margin-top: 1rem;
+
     font-size: 2rem;
     color: #fff;
 

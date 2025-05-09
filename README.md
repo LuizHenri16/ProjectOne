@@ -1,6 +1,18 @@
 # ProjectOne
-## Meu primeiro projeto frontend, feito em 2021 <br>
+Meu primeiro projeto frontend<br>
 
-Naquele momento eu só tinha feito um projeto que foi realizado pela rocketseat, <br>
-o OriginSix, então usei um template que encontrei no figma e tentei fazer pela <br>
-primeira vez sozinho.
+Primeiro projeto feito por mim usando HTML e CSS, feito em 2021 usando como base <br>
+um template encontrado no Figma. Não possuia tantas habilidades com as ferramentas. <br>
+
+## Objetivo 🎯
+
+O intuito do projeto foi estudar as ferraentas e criar o primeiro projeto sem estar <br>
+de um tutorial da internet.
+
+## Tecnologias 📌
+
+- HTML
+- CSS
+
+## Status ✅
+Concluido em 2021
